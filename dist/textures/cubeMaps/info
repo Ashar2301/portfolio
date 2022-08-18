@@ -1,0 +1,15 @@
+for 01 
+    '/textures/cubeMaps/01/nz.png',
+    '/textures/cubeMaps/01/pz.png',
+    '/textures/cubeMaps/01/py.png',
+    '/textures/cubeMaps/01/ny.png',
+    '/textures/cubeMaps/01/px.png',
+    '/textures/cubeMaps/01/nx.png'
+    
+for 3
+ '/textures/cubeMaps/03/nx.png',
+    '/textures/cubeMaps/03/px.png',
+    '/textures/cubeMaps/03/py.png',
+    '/textures/cubeMaps/03/ny.png',
+    '/textures/cubeMaps/03/nz.png',
+    '/textures/cubeMaps/03/pz.png'	

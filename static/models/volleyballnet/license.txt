@@ -1,0 +1,11 @@
+Model Information:
+* title:	Volleyball net (no texture)
+* source:	https://sketchfab.com/3d-models/volleyball-net-no-texture-8e091ebdaa074c8c878bed3e074e8250
+* author:	damien59492 (https://sketchfab.com/damien59492)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Volleyball net (no texture)" (https://sketchfab.com/3d-models/volleyball-net-no-texture-8e091ebdaa074c8c878bed3e074e8250) by damien59492 (https://sketchfab.com/damien59492) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
