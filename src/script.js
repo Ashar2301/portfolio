@@ -52,42 +52,6 @@ import { gsap } from 'gsap'
  const overlay = new THREE.Mesh(overlayGeometry, overlayMaterial)
 
 
-const gui = new dat.GUI()
-const debugObject = {};
-
-
-debugObject.reset = () =>{
-    for(const object of objectsToUpdate)
-    {
-        object.body.removeEventListener('collide', playHitSound)
-        world.removeBody(object.body)
-        scene.remove(object.mesh)
-    }
-}
-
-gui.add(debugObject , 'reset');
-
-debugObject.createSphere = ()=>{
-    createSphere(0.5 , {x:(Math.random() - 0.5)*3 , y:3 , z:(Math.random() - 0.5)*3})
-}
-
-gui.add(debugObject , 'createSphere');
-
-debugObject.createBox = () =>
-{
-    createBox(
-        Math.random(),
-        Math.random(),
-        Math.random(),
-        {
-            x: (Math.random() - 0.5) * 3,
-            y: 3,
-            z: (Math.random() - 0.5) * 3
-        }
-    )
-}
-gui.add(debugObject, 'createBox')
-
 /**
  * Base
  */
