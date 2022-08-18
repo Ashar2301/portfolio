@@ -273,19 +273,19 @@ window.addEventListener('click', () =>
            var url = "";
            if(intersection.point.z > -24.6 && intersection.point.z < -13.02)
            {
-                url = "https://www.youtube.com/"
+                url = "https://github.com/Ashar2301"
            }
            else if(intersection.point.z > -11.8 && intersection.point.z < -0.32)
            {
-                url = "https://www.twitch.tv/"
+                url = "https://offside-app.netlify.app/"
            }
            else if(intersection.point.z > 0.7 && intersection.point.z < 11.7)
            {
-                url = "https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjBoqDnisL5AhUz-zgGHbKWDpsQPAgI"
+                url = "https://ctfy.netlify.app/"
            }
            else if(intersection.point.z > 13.2 && intersection.point.z < 24.7)
            {
-                url = "https://www.facebook.com/"
+                url = "https://github.com/Ashar2301"
            }
            window.open(url, "_blank");
         }
@@ -304,7 +304,7 @@ window.addEventListener('click', () =>
                 }
                 else if(intersection.point.y > 4.67 && intersection.point.y < 8.17)
                 {
-                    url = "https://www.instagram.com/?hl=en"
+                    url = "https://www.instagram.com/datguyusher/"
                 }
                 else if(intersection.point.y > -4.17 && intersection.point.y < -1.01)
                 {
