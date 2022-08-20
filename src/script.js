@@ -198,7 +198,7 @@ const environmentMapTexture = cubeTextureLoader.load([
   * Camera
   */
  const camera = new THREE.PerspectiveCamera(85, sizes.width / sizes.height, 0.01, 1000)
- camera.position.set(-220, 26 , 0); //250
+ camera.position.set(-250, 26 , 0); //250
  
  scene.add(camera)
  
