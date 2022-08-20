@@ -198,7 +198,7 @@ const environmentMapTexture = cubeTextureLoader.load([
   * Camera
   */
  const camera = new THREE.PerspectiveCamera(85, sizes.width / sizes.height, 0.01, 1000)
- camera.position.set(-250, 26 , 0); //250
+ camera.position.set(-220, 26 , 0); //250
  
  scene.add(camera)
  
@@ -962,7 +962,7 @@ const keyDownFn = (args)=>{
     if(args.key == 'w' || args.key == 'W')
     {
         objectsToUpdate[0].body.velocity.x = 8;       
-        objectsToUpdate[0].body.applyLocalForce(new CANNON.Vec3(0.01,0,0) , objectsToUpdate[0].body.position); 
+        //objectsToUpdate[0].body.applyLocalForce(new CANNON.Vec3(0.01,0,0) , objectsToUpdate[0].body.position); 
     }
     if(args.key == 's' || args.key == 'S')
     {
@@ -1091,19 +1091,21 @@ const keyUpFn = (args)=>{
     map[args.key] = false;
     if(args.key == 'w' || args.key == 'W')
     {
-        objectsToUpdate[0].body.velocity.x = (objectsToUpdate[0].body.velocity.x / 2);
+        
+        objectsToUpdate[0].body.velocity.x = (objectsToUpdate[0].body.velocity.x / 10);
     }
     if(args.key == 's' || args.key == 'S')
     {
-        objectsToUpdate[0].body.velocity.x = (objectsToUpdate[0].body.velocity.x / 2);
+        
+        objectsToUpdate[0].body.velocity.x = (objectsToUpdate[0].body.velocity.x / 10);
     }
     if(args.key == 'd' || args.key == 'D')
     {
-        objectsToUpdate[0].body.velocity.z = (objectsToUpdate[0].body.velocity.z / 2);
+        objectsToUpdate[0].body.velocity.z = (objectsToUpdate[0].body.velocity.z / 10);
     }
     if(args.key == 'a' || args.key == 'A')
     {
-        objectsToUpdate[0].body.velocity.z = (objectsToUpdate[0].body.velocity.z / 2);
+        objectsToUpdate[0].body.velocity.z = (objectsToUpdate[0].body.velocity.z / 10);
     }
     if(args.key == ' ')
     {
