@@ -101,7 +101,7 @@ gltfLoader.load(
     '/models/button/scene.gltf',
     (gltf) =>
     {
-        gltf.scene.scale.set(0.015, 0.015, 0.015)
+        gltf.scene.scale.set(0.005, 0.005, 0.005)
         gltf.scene.position.set(-145,0.5,0);
         scene.add(gltf.scene)         
     }
@@ -110,7 +110,7 @@ gltfLoader.load(
     '/models/button/scene.gltf',
     (gltf) =>
     {
-        gltf.scene.scale.set(0.015, 0.015, 0.015)
+        gltf.scene.scale.set(0.005, 0.005, 0.005)
         gltf.scene.position.set(-85,0.5,0);
         scene.add(gltf.scene)         
     }
@@ -120,7 +120,7 @@ gltfLoader.load(
     '/models/button/scene.gltf',
     (gltf) =>
     {
-        gltf.scene.scale.set(0.015, 0.015, 0.015)
+        gltf.scene.scale.set(0.005, 0.005, 0.005)
         gltf.scene.position.set(-25,0.5,0);
         scene.add(gltf.scene)         
     }
@@ -407,11 +407,9 @@ gltfLoader.load(
     {
         gltf.scene.scale.set(0.015, 0.015, 0.015)
         gltf.scene.position.set(-205,1.5,0);
-        scene.add(gltf.scene)  
         circlesMap[0].object = gltf.scene;
         circlesMap[4].object = gltf.scene;
-        circlesMap[8].object = gltf.scene;
-        objectsToUpdate[0].mesh = gltf.scene;       
+        circlesMap[8].object = gltf.scene;       
     }
 )
 gltfLoader.load(
@@ -422,7 +420,9 @@ gltfLoader.load(
         gltf.scene.position.set(-205,1.5,0);
         circlesMap[1].object = gltf.scene;
         circlesMap[5].object = gltf.scene;
-        circlesMap[9].object = gltf.scene;     
+        circlesMap[9].object = gltf.scene;  
+        scene.add(gltf.scene)   
+        objectsToUpdate[0].mesh = gltf.scene;  
     }
 )
 gltfLoader.load(

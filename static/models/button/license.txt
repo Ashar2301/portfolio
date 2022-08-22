@@ -1,11 +1,11 @@
 Model Information:
-* title:	Button
-* source:	https://sketchfab.com/3d-models/button-658ef58d8c7548c08db05a91013b15f6
-* author:	Kacper "Papysh" Żurawski (https://sketchfab.com/PapyshZ)
+* title:	Red button
+* source:	https://sketchfab.com/3d-models/red-button-f90453fb7ada4ece92e4f70fab42d9e1
+* author:	Mateusz Sójka (https://sketchfab.com/matsoj)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Button" (https://sketchfab.com/3d-models/button-658ef58d8c7548c08db05a91013b15f6) by Kacper "Papysh" Żurawski (https://sketchfab.com/PapyshZ) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Red button" (https://sketchfab.com/3d-models/red-button-f90453fb7ada4ece92e4f70fab42d9e1) by Mateusz Sójka (https://sketchfab.com/matsoj) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
