@@ -8,6 +8,7 @@ html,
 body
 {
     overflow: hidden;
+    background-color: black;
 }
 
 .webgl
@@ -27,21 +28,36 @@ body
     color : black;
     background-color: white;
     opacity: 90%;
-    width: 15vh;
-    height: 15vh;
+    width: 75vh;
+    height: 20vh;
     text-align: center;
     display: none;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* pointer-events: none; */
 }
 
 .text
 {
-    margin-top: 35%;
+    margin-top: 5%;
     margin-bottom: 50%;
     font-weight: 700;
 
 }
+
+h3{
+    color : whitesmoke;
+    text-align: center;
+}
+
+.alert{
+    width:50%;
+    margin:20px auto;
+    padding:30px;
+    position:relative;
+    border-radius:5px;
+    box-shadow:0 0 15px 5px #ccc;
+  }
+
 .loading-bar
 {
     position: absolute;

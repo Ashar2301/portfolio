@@ -961,28 +961,28 @@ const keyDownFn = (args)=>{
     }
     if(args.key == 'w' || args.key == 'W')
     {
-        objectsToUpdate[0].body.velocity.x = 8;       
+        objectsToUpdate[0].body.velocity.x = 10;       
         //objectsToUpdate[0].body.applyLocalForce(new CANNON.Vec3(0.01,0,0) , objectsToUpdate[0].body.position); 
     }
     if(args.key == 's' || args.key == 'S')
     {
-        objectsToUpdate[0].body.velocity.x = -8;
+        objectsToUpdate[0].body.velocity.x = -10;
     }
     if(args.key == 'a' || args.key == 'A')
     {
         if(map['w'] == true)
         {
-            objectsToUpdate[0].body.velocity.z = -8;
-            objectsToUpdate[0].body.velocity.x = 8;
+            objectsToUpdate[0].body.velocity.z = -10;
+            objectsToUpdate[0].body.velocity.x = 10;
         }
         else if(map['s'] == true)
         {
-            objectsToUpdate[0].body.velocity.z = -8;
-            objectsToUpdate[0].body.velocity.x = -8;
+            objectsToUpdate[0].body.velocity.z = -10;
+            objectsToUpdate[0].body.velocity.x = -10;
         }
         else
         {
-            objectsToUpdate[0].body.velocity.z = -8;
+            objectsToUpdate[0].body.velocity.z = -10;
         }
        
     }
@@ -990,17 +990,17 @@ const keyDownFn = (args)=>{
     {
         if(map['w'] == true)
         {
-            objectsToUpdate[0].body.velocity.z = 8;
-            objectsToUpdate[0].body.velocity.x = 8;
+            objectsToUpdate[0].body.velocity.z = 10;
+            objectsToUpdate[0].body.velocity.x = 10;
         }
         else if(map['s'] == true)
         {
-            objectsToUpdate[0].body.velocity.z = 8;
-            objectsToUpdate[0].body.velocity.x = -8;
+            objectsToUpdate[0].body.velocity.z = 10
+            objectsToUpdate[0].body.velocity.x = -10;
         }
         else
         {
-            objectsToUpdate[0].body.velocity.z = 8;
+            objectsToUpdate[0].body.velocity.z = 10;
         }
         
     }
@@ -1244,9 +1244,11 @@ const tick = () =>
     }     
 
     var domE = document.getElementById('pg1');
+    var domE2 = document.getElementById('pg2');
     if(verifyCircle(objectsToUpdate[0].body.position.x , objectsToUpdate[0].body.position.z) != null)
     {
         domE.style.display = 'block';
+        domE2.style.display = 'none';
     }
     else if((objectsToUpdate[0].body.position.x < -144 && objectsToUpdate[0].body.position.x > -146
         && objectsToUpdate[0].body.position.z < 2 && objectsToUpdate[0].body.position.z > -2)
@@ -1257,11 +1259,13 @@ const tick = () =>
         (objectsToUpdate[0].body.position.x < -24 && objectsToUpdate[0].body.position.x > -26
             && objectsToUpdate[0].body.position.z < 2 && objectsToUpdate[0].body.position.z > -2))
     {
-        domE.style.display = 'block';
+        domE.style.display = 'none';
+        domE2.style.display = 'block';
     }
     else
     {
         domE.style.display = 'none';
+        domE2.style.display = 'none';
     }
 
     
