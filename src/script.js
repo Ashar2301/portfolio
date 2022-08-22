@@ -308,7 +308,7 @@ window.addEventListener('click', () =>
                 }
                 else if(intersection.point.y > -4.17 && intersection.point.y < -1.01)
                 {
-                    url = "https://drive.google.com/drive/my-drive"
+                    url = "https://drive.google.com/file/d/1zfOd_bGGbdExe3MxDrnNIZRo_OnRXa0X/view?usp=sharing"
                 }
                 window.open(url, "_blank");
             }
